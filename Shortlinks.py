@@ -10,7 +10,7 @@ import time
 
 
 options = Options()
-options.add_argument(r"user-data-dir=C:\Users\kamala1\appdata\Local\Google\Chrome\User Data\Selenium")
+options.add_argument(r"user-data-dir=C:\Users\xxxx\appdata\Local\Google\Chrome\User Data\Selenium")
 #options.add_argument("start-maximized")
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
