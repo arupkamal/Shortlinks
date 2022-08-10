@@ -55,7 +55,7 @@ def CreateLink(inputShortlink, inputUrl, tag="TAG"):
         #print(e)
 
         
-CreateLink("conceptual", "https://piim.roche.com?m=1&o=xyz")    
+CreateLink("conceptual", "https://cnn.com")    
 
 
 
